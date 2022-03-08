@@ -276,77 +276,77 @@
         tools:layout_editor_absoluteY="620dp"
         tools:ignore="MissingConstraints" />
 
-    <!--    <LinearLayout-->
-<!--        android:layout_width="407dp"-->
-<!--        android:layout_height="138dp"-->
-<!--        android:orientation="vertical"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="1dp"-->
-<!--        tools:layout_editor_absoluteY="592dp">-->
+        <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="138dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="592dp">
 
-<!--        <View-->
-<!--            android:id="@+id/divider12"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="6dp"-->
-<!--            android:background="?android:attr/listDivider" />-->
+        <View
+            android:id="@+id/divider12"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="?android:attr/listDivider" />
 
-<!--        <TextView-->
-<!--            android:id="@+id/textView15"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:text="Highlights"-->
-<!--            android:textColor="@color/black"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold" />-->
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:text="Highlights"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:orientation="horizontal">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
 
-<!--            <ImageView-->
-<!--                android:id="@+id/imageView13"-->
-<!--                android:layout_width="100dp"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_marginTop="-20dp"-->
-<!--                android:layout_weight="1"-->
-<!--                tools:srcCompat="@tools:sample/avatars" />-->
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-20dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
 
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="10dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:orientation="vertical">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
-<!--                <TextView-->
-<!--                    android:id="@+id/textView16"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Your both work at Binar Academy"-->
-<!--                    android:textColor="@color/black"-->
-<!--                    android:textSize="14dp"-->
-<!--                    android:textStyle="bold" />-->
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your both work at Binar Academy"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
 
-<!--                <TextView-->
-<!--                    android:id="@+id/textView17"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Brayen started at Binar academy 3 years before you did" />-->
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Brayen started at Binar academy 3 years before you did" />
 
-<!--                <Button-->
-<!--                    android:id="@+id/button3"-->
-<!--                    android:layout_width="100dp"-->
-<!--                    android:layout_height="40dp"-->
-<!--                    android:backgroundTint="@color/grey"-->
-<!--                    android:text="Button" />-->
-<!--            </LinearLayout>-->
-<!--        </LinearLayout>-->
-<!--    </LinearLayout>-->
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/grey"
+                    android:text="Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
